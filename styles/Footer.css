@@ -1,0 +1,263 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    background-color: #eee;
+    color: #333;
+    font-size: 16px;
+  }
+
+.container-box {
+    width: 80rem;
+    height: 25rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: .5rem .5rem 3rem rgba(0, 0, 0, 0.2);
+
+}
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_helper.scss */
+.list-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+/* line 1, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+.main-footer {
+	color: #fff;
+  }
+  
+  /* line 3, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer a {
+	color: #fff;
+  }
+  
+  /* line 6, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top {
+	background-color: #85C3DC;
+	padding: 50px 0;
+  }
+  
+  /* line 9, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top h3 {
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-bottom: 20px;
+  }
+  
+  /* line 14, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .info {
+	color: #598091;
+	margin-bottom: 20px;
+  }
+  
+  /* line 18, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top p {
+	margin-bottom: 0;
+  }
+  
+  /* line 20, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top p a {
+	margin-bottom: 10px;
+	display: inline-block;
+  }
+  
+  /* line 25, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .back-to-top {
+	display: none;
+  }
+  
+  /* line 32, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-top .users ul li a:hover {
+	color: #598091;
+  }
+  
+  /* line 40, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom {
+	padding: 15px 0;
+	color: #000;
+  }
+  
+  /* line 42, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net {
+	text-align: center;
+  }
+  
+  /* line 44, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li {
+	display: inline-block;
+  }
+  
+  /* line 46, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li:not(:last-child) {
+	margin-right: 10px;
+  }
+  
+  /* line 49, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	background-size: cover;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+  }
+  
+  
+  /* line 62, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a.fb {
+	background-image: url("img/facebook.png");
+  }
+  
+  /* line 65, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a.tw {
+	background-image: url("img/twitter.png");
+  }
+  
+  /* line 68, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a.in {
+	background-image: url("img/instagram.png");
+  }
+  
+  /* line 74, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+  .main-footer .footer-bottom .soc-net li a:hover {
+	opacity: 0.8;
+  }
+  
+  @media (min-width: 768px) {
+	/* line 86, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top {
+	  position: relative;
+	}
+	/* line 88, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top h4 {
+	  margin: 25px 0;
+	  text-transform: uppercase;
+	  font-size: 18px;
+	}
+	/* line 93, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top li {
+	  margin-bottom: 7px;
+	}
+	/* line 97, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .tags li {
+	  margin-bottom: 10px;
+	  float: left;
+	}
+	/* line 100, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .tags li:not(:last-child) {
+	  margin-right: 10px;
+	}
+	/* line 103, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .tags li a {
+	  padding: 6px 10px;
+	  background-color: #95D9F6;
+	  display: inline-block;
+	}
+	/* line 107, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .tags li a:hover {
+	  color: #598091;
+	}
+	/* line 113, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .back-to-top {
+	  width: 40px;
+	  height: 40px;
+	  border: 1px solid #fff;
+	  background-image: url("img/back-to-top-white.png");
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  display: block;
+	  text-indent: -9999px;
+	  position: absolute;
+	  right: 30px;
+	  bottom: 30px;
+	  cursor: pointer;
+	  -webkit-transition: all .3s;
+	  -moz-transition: all .3s;
+	  transition: all .3s;
+	}
+	/* line 129, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .back-to-top:hover {
+	  background-image: url("../img/back-to-top-blue.png");
+	  background-color: #fff;
+	}
+	/* line 136, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .soc-net {
+	  float: left;
+	}
+	/* line 139, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .soc-net li:not(:last-child) {
+	  margin-right: 0;
+	}
+	/* line 142, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .soc-net li a {
+	  width: 20px;
+	  height: 20px;
+	}
+	/* line 148, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .footer-nav {
+	  float: right;
+	  padding-bottom: 0;
+	}
+	/* line 151, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .footer-nav li {
+	  float: left;
+	}
+	/* line 153, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .footer-nav li:not(:last-child) {
+	  margin-right: 20px;
+	}
+	/* line 156, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom .footer-nav li a {
+	  color: #666;
+	  font-size: 12px;
+	  padding: 0 0 3px;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	/* line 169, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .info {
+	  font-size: 14px;
+	}
+	/* line 172, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top p {
+	  font-size: 14px;
+	}
+	/* line 176, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom {
+	  padding: 25px 0;
+	}
+  }
+  
+  @media (min-width: 1200px) {
+	/* line 184, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top h4 {
+	  margin-top: 50px;
+	}
+	/* line 189, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .tags li a {
+	  padding: 9px 13px;
+	}
+	/* line 195, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-bottom {
+	  padding: 35px 0;
+	}
+  }
+  
+  @media (min-width: 1400px) {
+	/* line 203, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .back-to-top {
+	  border-color: #85C3DC;
+	  bottom: -65px;
+	  background-image: url("img/back-to-top-blue.png");
+	}
+	/* line 207, C:/xampp/htdocs/Shop/scss/partials/_footer.scss */
+	.main-footer .footer-top .back-to-top:hover {
+	  background-color: #85C3DC;
+	  background-image: url("img/back-to-top-white.png");
+	}
+  }
+  
